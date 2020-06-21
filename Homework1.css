@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +47,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +57,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Asisde*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,6 +97,7 @@ p {
     max-width: 150px;
 }
 
+/* Main*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -132,6 +122,21 @@ p {
     font-size: 36px;
 }
 
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Footer*/ 
 .footer {
     padding: 30px;
     clear: both;
